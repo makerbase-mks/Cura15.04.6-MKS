@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\Cura\cura.py", line 89, in <module>
+    main()
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\Cura\cura.py", line 86, in main
+    app.CuraApp(args).MainLoop()
+  File "Cura\gui\app.py", line 61, in __init__
+    self.splash = splashScreen.splashScreen(self.afterSplashCallback)
+  File "Cura\gui\splashScreen.py", line 10, in __init__
+    bitmap = wx.Bitmap(getPathForImage('splash.png'))
+  File "Cura\util\resources.py", line 42, in getPathForImage
+    return getPathForResource(resourceBasePath, 'images', name)
+  File "Cura\util\resources.py", line 35, in getPathForResource
+    assert os.path.isdir(dir), "{p} is not a directory".format(p=dir)
+AssertionError: H:\devproject\Cura-MKS_15.04.6\uploadGithub\resources is not a directory
+Traceback (most recent call last):
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\python\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\python\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\Cura\cura.py", line 89, in <module>
+    main()
+  File "H:\devproject\Cura-MKS_15.04.6\uploadGithub\Cura\cura.py", line 86, in main
+    app.CuraApp(args).MainLoop()
+  File "Cura\gui\app.py", line 61, in __init__
+    self.splash = splashScreen.splashScreen(self.afterSplashCallback)
+  File "Cura\gui\splashScreen.py", line 10, in __init__
+    bitmap = wx.Bitmap(getPathForImage('splash.png'))
+  File "Cura\util\resources.py", line 42, in getPathForImage
+    return getPathForResource(resourceBasePath, 'images', name)
+  File "Cura\util\resources.py", line 35, in getPathForResource
+    assert os.path.isdir(dir), "{p} is not a directory".format(p=dir)
+AssertionError: H:\devproject\Cura-MKS_15.04.6\uploadGithub\resources is not a directory
